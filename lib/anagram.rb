@@ -7,7 +7,7 @@ attr_accessor :word
     @word = word
   end
   
-  def match(array)
+  def match(ifnone=nil)
  
     array.detect do |some_word| some_word.split("").sort == @word.split("").sort
   end
