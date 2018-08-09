@@ -9,6 +9,6 @@ attr_accessor :word
   
   def match(array)
     binding.pry
-    array.each do {|word| word.split("")}
+    array.detect do {|word| word.split("")}
   end
 end
