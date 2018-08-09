@@ -9,6 +9,6 @@ attr_accessor :word
   
   def match(array)
     binding.pry
-    array.detect
+    array.
   end
 end
