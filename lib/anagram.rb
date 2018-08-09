@@ -11,4 +11,5 @@ attr_accessor :word
     binding.pry
     array.detect do {|word| word.split("").sort == @word}
   end
+  end
 end
