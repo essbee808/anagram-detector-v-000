@@ -8,7 +8,7 @@ attr_accessor :word
   end
   
   def match(array)
-    binding.pry
+ 
     array.detect do |some_word| some_word.split("").sort == @word.split("").sort
   end
   end
